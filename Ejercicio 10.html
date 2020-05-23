@@ -1,0 +1,24 @@
+<script>
+    let cantidadPersonas = 3;
+    let min = -1;
+    let nombre = '';
+    let edad = 0;
+    let nombreMenor = '';
+    let edadMenor = 0;
+
+    for (i = 1; i <= cantidadPersonas; i++) {
+        nombre = prompt(`Ingrese el nombre de la persona ${i}`);
+        edad = parseInt(prompt(`Ingrese la edad de la persona ${i}`));
+
+        if (min == -1) {
+            min = edad;
+            edadMenor = edad;
+            nombreMenor = nombre;
+        } else if (edad < min) {
+            edadMenor = edad;
+            nombreMenor = nombre;
+        }
+    }
+
+    console.log(`${nombreMenor} es el menor con ${edadMenor} años de edad`);
+</script>

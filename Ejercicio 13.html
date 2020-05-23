@@ -1,0 +1,21 @@
+<script>
+    let cantidadAlumnosEvaluar = parseInt(prompt('Ingrese la cantidad alumnos a evaluar'));
+    let cantidadAlumnosAprobados = 0;
+    let cantidadAlumnosDesaprobados = 0;
+    let nota = 0;
+    let notaMinAprobatoria = 11;
+
+
+    for (i = 1; i <= cantidadAlumnosEvaluar; i++) {
+        nota = parseInt(prompt(`Ingrese la nota del alumno ${i}`));
+
+        if (nota >= notaMinAprobatoria) {
+            cantidadAlumnosAprobados = cantidadAlumnosAprobados + 1;
+        } else {
+            cantidadAlumnosDesaprobados = cantidadAlumnosDesaprobados + 1;
+        }
+    }
+
+    console.log(`Cantidad de alumnos aprobados: ${cantidadAlumnosAprobados}`);
+    console.log(`Cantidad de alumnos desaprobados: ${cantidadAlumnosDesaprobados}`);
+</script>

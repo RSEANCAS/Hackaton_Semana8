@@ -1,0 +1,6 @@
+•	¿Cuál es la importancia de usar un algoritmo? 
+El algoritmo nos sirve para definir una serie de instrucciones para resolver un problema.
+•	¿Cómo un algoritmo mejora el proceso o servicio de una empresa?
+Al definir algoritmos hace que los procesos sean más exactos y ayuda a la toma de decisiones, mejora de los procesos y/o servicios, y para el crecimiento de la empresa.
+•	¿El algoritmo expuesto en este caso es el único con el que cuenta TuTienda?
+No, cuenta también con el algoritmo de recojo en tienda.

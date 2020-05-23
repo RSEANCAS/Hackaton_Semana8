@@ -1,0 +1,12 @@
+<script>
+    let s = parseFloat(prompt('Ingrese el sueldo inicial'));
+    let a = parseInt(prompt('Ingrese cantidad de años laborando'));
+    let inc = 1.1;
+    let t = 0.0;
+
+    t = s;
+    for (i = 1; i <= a; i++) {
+        console.log(`El año ${i} su sueldo fue:  ${t}`);
+        t = t * inc;
+    }
+</script>

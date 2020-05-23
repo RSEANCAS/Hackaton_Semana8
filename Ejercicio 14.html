@@ -1,0 +1,27 @@
+<script>
+    let cf = parseInt(prompt('Ingrese cantidad de focos a contabilizar'));
+    let cfv = 0;
+    let cfb = 0;
+    let cfr = 0;
+    let c = '';
+
+    for (i = 1; i <= cf; i++) {
+        c = prompt('Ingrese el color del foco (verde, blanco o rojo)');
+
+        switch (c) {
+            case 'verde':
+                cfv = cfv + 1;
+                break;
+            case 'blanco':
+                cfb = cfb + 1;
+                break;
+            case 'rojo':
+                cfr = cfr + 1;
+                break;
+        }
+    }
+
+    console.log(`Existen ${cfv} foco(s) verde(s) de ${cf} foco(s) ingresado(s)`);
+    console.log(`Existen ${cfb} foco(s) blanco(s) de ${cf} foco(s) ingresado(s)`);
+    console.log(`Existen ${cfr} foco(s) rojo(s) de ${cf} foco(s) ingresado(s)`);
+</script>
